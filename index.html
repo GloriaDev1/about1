@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    
+    .testimonial {
+        font-family: "inter" sans-serif;
+        color: #343a40;
+        line-height: 1.5;
+    }
+    img{
+        height: 200PX;
+        border-radius: 8px;
+    }
+    
+    img{
+        transform: scale(1.5);
+        /* padding-left: 86px; */
+        margin-left: 17px;
+        box-shadow: 0 20px 20px rgba(0, 0, 0, 0.25);
+        
+    }
+    .carousel{
+        padding: 32px 48px;
+        background-color: #057f5b;
+        width: 800px;
+        height: 100px auto;
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        margin: 100px auto;
+    
+    
+    }
+    .testimonial-author{
+        font-size: 14px;
+        margin-bottom: 4px;
+        padding-left: 80px;
+    }
+    
+    .testimonial-text {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 1.5;
+        padding-left: 80px;
+        
+    }
+    
+    .testimonial-job{
+        font-size: 12px;
+        color: #c3faed;
+        padding-left: 80px;
+    }
+    
+    .testimonial-text{
+        margin-bottom: 32px;
+         color: #e6fcf5; 
+        
+    }
+    
+    .testimonial{
+    
+    }
+    
+    .btn {
+        background-color: #fff;
+        border: none;
+        width: 40px;
+        height: 40px;
+    }   
+    
+    
+    .btn--left{
+        left: 0;
+    }
+    
+    .btn--left{
+         top: 50%;
+         transform: translate(-50px, -50px);
+    } 
+    .btn{
+        top: 50%;
+        
+    }
+    
+    
+    .btn--right{
+        right: 0;
+    }
+    .btn--right{
+        top: 50%;
+         transform: translate(30px, -50px);
+    }
+    
+    .btn-icon{
+        width: 24px;
+        height: 24px;
+        stroke: #087f5b;
+    }
+    .carousel{
+        position: relative;
+    }
+    .btn{
+        position: absolute;
+        border-radius: 50%;
+        display: flex;
+        /* align-items: center; */
+        justify-content: center;
+        box-shadow: 0 12px 12px rgba(0, 0, 0, 0.2);
+    
+    }
+     .dot{
+        height: 24px;
+        width: 24px;
+        background-color: #fff;
+        border: 2px solid #887f5b;
+        border-radius: 50%;
+        cursor: pointer;
+    
+    
+        /* display: flex; */
+        left: 50%;
+        bottom: 0;
+       
+        
+    
+        
+     }
+     .dots{
+        position: absolute;
+        left: 50%;
+        border: 0;
+        transform: translate(-50%, 32px);
+        
+    
+    
+        display: flex;
+    
+        gap: 12px;
+       
+        bottom: -20px;
+     }
+     .dot--fill{
+        background-color: #087f5b;
+     }
+    
+        </style>
+<body>
+    <div class="carousel">
+        <img src="IMG_20210530_140410.jpg" alt="">
+       <blockquote class="testimonial">
+       <p class="testimonial-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem delectus sequi 
+           tempore repudiandae corrupti soluta aspernatur voluptatibus! Est, aliquam itaque architecto
+            voluptas nulla perspiciatis velit laboriosam dicta optio, nihil minus.
+       </p> 
+
+      
+
+       <p class="testimonial-author">Owobu Gloria</p>
+       <p class="testimonial-job">Instructor Of Software Web Developer</p>
+
+       </blockquote>
+       <button class="btn   btn--left">
+           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="btn-icon">
+               <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+             </svg> 
+       </button>
+
+       <button class="btn  btn--right">
+           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="btn-icon">
+               <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+             </svg>
+       </button>
+
+       <div class="dots">
+           <div class="dot  dot--fill">&nbsp;</div>
+           <div class="dot">&nbsp;</div>
+           <div class="dot">&nbsp;</div>
+           <div class="dot">&nbsp;</div>
+       </div>
+
+   </div>
+</body>
+</html>
