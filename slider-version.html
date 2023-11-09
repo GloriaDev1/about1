@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 
-<!-- Mirrored from html.tavonline.co/stephens/demos/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 08 Nov 2023 18:39:16 GMT -->
+<!-- Mirrored from html.tavonline.co/stephens/demos/slider-version.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 08 Nov 2023 18:38:29 GMT -->
 <head>
 <title>Stephens - Portfolio Template</title>
 <meta charset="UTF-8">
@@ -15,8 +15,9 @@
 <link rel="stylesheet" href="css/bootstrap.css"/>
 <link rel="stylesheet" href="css/reset.css"/>
 <link rel="stylesheet" href="css/style.css"/>
-    <link rel="stylesheet" href="css/animate.css"/>
+<link rel="stylesheet" href="css/animate.css"/>
 <link rel="stylesheet" href="css/magnific-popup.css"/> 
+<link rel="stylesheet" href="css/superslides.css">
     
 <!-- Google Web fonts -->
 <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
@@ -45,7 +46,7 @@
         <div class="row">
             <div class="container">
                 <div class="logo">
-                    <img src="images/logo.png" alt="">
+                    <img src="images/logo.png">
                 </div>
                 <div class="responsive"><i data-icon="m" class="icon"></i></div>
                 <ul class="nav-menu">
@@ -59,27 +60,38 @@
         </div>
     </nav>
     
+    
     <!--HOME-->
-    <section class="home" id="home"> 
-            <div class="home-content">
-                <h1>I'm <span class="element">Stephens</span></h1>
-                <div class="social">
-                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i>  </a>
-                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i>  </a>
-                    <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i>  </a>
-                    <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i>  </a>
-                    <a href="#"><i class="fa fa-behance" aria-hidden="true"></i>  </a>
-                    <a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i>  </a>
-                </div>
-                <a class="home-down bounce" href="#about"><i class="fa fa-angle-down"></i></a>
+    <section class="home slider" id="home"> 
+       <div class="home-content">
+            <h1>I'm <span class="element">Stephens</span></h1>
+            <div class="social">
+                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i>  </a>
+                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i>  </a>
+                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i>  </a>
+                <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i>  </a>
+                <a href="#"><i class="fa fa-behance" aria-hidden="true"></i>  </a>
+                <a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i>  </a>
             </div>
+            <a class="home-down bounce" href="#about"><i class="fa fa-angle-down"></i></a>
+        </div>
+        <div class="home-slider">
+        <div id="slides">
+          <div class="slides-container">
+            <img src="images/home.jpg" alt="">
+            <img src="images/slider-1.jpg" alt="">
+            <img src="images/slider-2.jpg" alt="">
+          </div>
+       </div>
+        </div>
     </section>
+    
     <!--ABOUT-->
     <section class="about" id="about">
             <div class="container"> 
                 <div class="row">
                     <div class="col-md-6 about-image wow fadeInUp" data-wow-delay="0.4s">
-                        <img src="images/about.jpg" alt="">
+                        <img src="images/about.jpg">
                     </div>
                     <div class="col-md-6 about-text wow fadeInUp" data-wow-delay="0.8s">
                         <div class="out">
@@ -144,36 +156,50 @@
                     <div class="isotope_items row">
                         <!-- Item -->
                         <a href="https://www.youtube.com/watch?v=M-M3rdL_WLQ" class="popup-youtube single_item link development col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                            <img src="images/masonry/work-1.jpg" alt=""> 
                             <i class="fa fa-play" aria-hidden="true"></i>   
-                            <img src="images/work-1.jpg" alt=""> 
                         </a>
                         <!-- Item -->
                         <a href="images/work-2.jpg" class="single_item link aplication col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.6s">
-                            <img src="images/work-2.jpg" alt=""> 
+                            <img src="images/masonry/work-2.jpg" alt=""> 
                         </a>
                         <!-- Item -->
                         <a href="images/work-3.jpg" class="single_item link development col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.9s">
-                            <img src="images/work-3.jpg" alt=""> 
+                            <img src="images/masonry/work-3.jpg" alt=""> 
                         </a>
                         <!-- Item -->
-                        <a href="images/work-4.jpg" class="single_item link web-design col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="1.2s">
-                            <img src="images/work-4.jpg" alt=""> 
+                        <a href="images/work-4.jpg" class="single_item link web-design col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="1.5s">
+                            <img src="images/masonry/work-4.jpg" alt=""> 
                         </a>
                         <!-- Item -->
-                        <a href="images/work-5.jpg" class="single_item link aplication col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="1.5s">
-                            <img src="images/work-5.jpg" alt=""> 
+                        <a href="images/work-5.jpg" class="single_item link aplication col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="1.8s">
+                            <img src="images/masonry/work-5.jpg" alt=""> 
                         </a>
                         <!-- Item -->
-                        <a href="images/work-6.jpg" class="single_item link aplication col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="1.8s">
-                            <img src="images/work-6.jpg" alt=""> 
+                        <a href="images/work-6.jpg" class="single_item link aplication col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="1.2s">
+                            <img src="images/masonry/work-6.jpg" alt=""> 
+                        </a>
+                        <!-- Item -->
+                        <a href="images/work-7.html" class="single_item link aplication col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="2.2s">
+                            <img src="images/masonry/work-7.jpg" alt=""> 
+                        </a>
+                        <!-- Item -->
+                        <a href="images/work-8.html" class="single_item link aplication col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="2.4s">
+                            <img src="images/masonry/work-8.jpg" alt=""> 
+                        </a>
+                        <!-- Item -->
+                        <a href="images/work-9.html" class="single_item link aplication col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="2s">
+                            <img src="images/masonry/work-9.jpg" alt=""> 
                         </a>
                     </div>
+                    <div class="col-md-12 button"><a href="#" class="site-button"> LOAD MORE</a></div>
+                    
                 </div>
                 </div>
         </div>
     </section>
     
-    <!-- BLOG -->
+        <!-- BLOG -->
     <section class="blog" id="blog">
         <div class="container-fluid gray-bg">
             <div class="container">
@@ -213,7 +239,6 @@
         </div>
     </section>
     
-    <!-- CONTACT -->
     <section class="contact" id="contact">
         <div class="container">
             <div class="section-title">
@@ -281,11 +306,17 @@ Created by Tavillathemes</p>
 <script src="js/isotope.pkgd.min.js"></script>
 <script src="js/typed.js"></script>
 <script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/jquery.superslides.min.js"></script>
 <script src="js/main.js"></script>
-    
-    
+<script>
+   //SUPER SLİDER
+    $('#slides').superslides({
+      animation: 'fade',
+      play: 3000
+    });    
+</script>
  
 </body>
 
-<!-- Mirrored from html.tavonline.co/stephens/demos/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 08 Nov 2023 18:39:16 GMT -->
+<!-- Mirrored from html.tavonline.co/stephens/demos/slider-version.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 08 Nov 2023 18:38:57 GMT -->
 </html>
